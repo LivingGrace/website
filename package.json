@@ -14,11 +14,11 @@
     "@fontsource/plus-jakarta-sans": "^4.5.8",
     "next": "12.2.3",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "sharp": "^0.30.7"
   },
   "devDependencies": {
     "@types/json-schema": "^7.0.11",
-    "@types/json5": "^2.2.0",
     "@types/node": "18.0.0",
     "@types/prop-types": "^15.7.5",
     "@types/react": "18.0.14",

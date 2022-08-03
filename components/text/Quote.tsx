@@ -9,8 +9,8 @@ type QuoteProps = {
 
 export default function Quote({image, message, author, title}: QuoteProps) {
     return (
-        <div className="flex grow shrink-0 my-10 text-[19px] lg:w-[30rem] w-[20rem] text-[#949494] md:pt-5 gap-6">
-            <div>
+        <div className="flex grow md:pt-3 gap-6">
+            <div className="shrink-0">
                 <Image
                     width="256"
                     height="256"
@@ -18,7 +18,7 @@ export default function Quote({image, message, author, title}: QuoteProps) {
                     alt={`Image of ${author}`}
                 />
             </div>
-            <div>
+            <div className="text-[19px] text-[#949494]">
                 <p>“{message.trim()}”</p>
                 <p>{author}</p>
                 {title}

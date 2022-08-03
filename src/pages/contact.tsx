@@ -1,9 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
+import Head from "next/head";
 
 const Contact = () => (
     <div className="m-6">
-        <h1 className="text-[#1E88E5] text-[42px] md:text-[57px] text-bold">Contact</h1>
+        <Head>
+            <title>RCCG Living Grace Durham - Contact</title>
+        </Head>
+        <h1 className="text-[#1E88E5] text-[42px] md:text-[57px] text-bold select-none">Contact</h1>
 
         <div className="flex flex-row gap-6 justify-between">
             <div className="grid pt-3 gap-6 text-[#666666] md:text-[38px] text-[24px] text-bold">

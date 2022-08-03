@@ -1,3 +1,5 @@
+import Head from "next/head";
+
 type Time = {
     day: string
     time: string
@@ -29,7 +31,10 @@ const times: Time[] = [
 const Times = () => (
     <>
         <div className="m-6">
-            <h1 className="text-[#1E88E5] text-[42px] md:text-[57px] text-bold">Service times</h1>
+            <Head>
+                <title>RCCG Living Grace Durham - Times</title>
+            </Head>
+            <h1 className="text-[#1E88E5] text-[42px] md:text-[57px] text-bold select-none">Service times</h1>
             <div className="grid grid-col gap-3 pt-4">
                 {times.map((time: Time) => (
                     <div key={time.day + time.time}>

@@ -21,7 +21,7 @@ const routes: Route[] = [
 export default function Navigation() {
     // noinspection HtmlUnknownTarget
     return (
-        <div className="flex flex-row gap-6">
+        <div className="flex flex-row gap-6 select-none">
             <div>
                 <Link passHref href="/">
                     <a>

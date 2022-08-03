@@ -31,10 +31,10 @@ export default function Home() {
     return (
         <div className="overflow-hidden">
             <Head>
-                <title>RCCG Living Grace Durham</title>
+                <title>RCCG Living Grace Durham - Home</title>
             </Head>
 
-            <div className="mx-6">
+            <div className="mx-6 select-none">
                 <div className="flex flex-row gap-6 justify-between">
                     <div>
                         <h1 className="tracking-tight lg:w-[30rem] w-[20rem] md:text-left text-center md:text-[57px] text-[40px] font-bold text-[#1E88E5]">

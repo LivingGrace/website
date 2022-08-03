@@ -1,6 +1,11 @@
+import Head from "next/head";
+
 const About = () => (
         <div className="m-6">
-            <h1 className="text-[#1E88E5] text-[42px] md:text-[57px] text-bold">About us</h1>
+            <Head>
+                <title>RCCG Living Grace Durham - About</title>
+            </Head>
+            <h1 className="text-[#1E88E5] text-[42px] md:text-[57px] text-bold select-none">About us</h1>
             <div className="text-[#666666] md:text-[20px] text-[15px] text-bold">
                 <p>
                     In July 1909, a son was born into the Akindayomi family of Ondo State of Nigeria. Even though this child

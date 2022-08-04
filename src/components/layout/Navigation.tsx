@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import {useRouter} from "next/router";
 
 type Route = {
     name: string;
@@ -19,6 +20,9 @@ const routes: Route[] = [
 
 
 export default function Navigation() {
+    const router = useRouter();
+    console.log(router.route);
+
     // noinspection HtmlUnknownTarget
     return (
         <div className="flex flex-row gap-6 select-none">
@@ -35,18 +39,16 @@ export default function Navigation() {
                     </a>
                 </Link>
             </div>
-
             {routes.map((route) => (
                 <Link passHref href={route.path} key={route.path}>
-                    <button key={route.path}>
+                    <button className="hover:text-[#1E88E5]" key={route.path}>
                         {route.name}
                     </button>
                 </Link>
             ))}
             <div className="grow"/>
-
             <Link passHref href="/contact">
-                <button className="rounded-full bg-[#3F51B5] px-4 py-2 font-medium text-white">Contact</button>
+                <button className="hover:text-[#1E88E5]">Contact</button>
             </Link>
         </div>
     );

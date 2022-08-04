@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Image from "next/image";
-import Quote from "../../components/text/Quote";
+import Quote from "../src/components/text/Quote";
 
 type PastorQuote = {
     author: string
@@ -37,7 +37,7 @@ export default function Home() {
             <div className="mx-6 select-none">
                 <div className="flex flex-row gap-6 justify-between">
                     <div>
-                        <h1 className="tracking-tight lg:w-[30rem] w-[20rem] md:text-left text-center md:text-[57px] text-[40px] font-bold text-[#1E88E5]">
+                        <h1 className="tracking-tight xl:w-[30rem] lg:w-[55rem]  md:text-left text-center md:text-[57px] text-[40px] font-bold text-[#1E88E5]">
                             Welcome to
                             <p className="text-black">RCCG Living Grace Durham</p>
                         </h1>

@@ -15,14 +15,14 @@ const Contact = () => (
                     Facebook
                     <br />
                     <Link href="https://www.facebook.com/RCCG-Living-Grace-Durham-105454208869827">
-                        <a className="md:text-[24px] text-[16px]">RCCG Living Grace Durham</a>
+                        <a className="md:text-[24px] text-[16px] text-[#1E88E5] hover:text-[#186CB7]">RCCG Living Grace Durham</a>
                     </Link>
                 </p>
                 <p>
                     Contact Number
                     <br />
                     <Link href="tel:+447950927152">
-                        <a className="md:text-[24px] text-[16px]">07950927152</a>
+                        <a className="md:text-[24px] text-[16px] text-[#1E88E5] hover:text-[#186CB7]">07950927152</a>
                     </Link>
                 </p>
                 <p>

@@ -41,7 +41,7 @@ export default function Home() {
                             Welcome to
                             <p className="text-black">RCCG Living Grace Durham</p>
                         </h1>
-                        <h2 className="text-[16px] md:text-[22px]  md:w-[28rem] md:text-left text-center text-[#949494]">Transforming
+                        <h2 className="text-[16px] md:text-[22px] md:w-[28rem] md:text-left text-center text-[#949494]">Transforming
                             lives, impacting generations.</h2>
                     </div>
                     <div className="grow md:pl-[25rem] xl:inline hidden">
@@ -54,7 +54,8 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="flex lg:flex-row gap-6 md:pt-5 pt-12 flex-col lg:text-left text-center md:justify-between">
+                <div
+                    className="flex lg:flex-row gap-6 md:pt-5 pt-12 flex-col lg:text-left text-center md:justify-between">
                     {quotes.map((quote) => (
                         <Quote image={quote.image} message={quote.text} author={quote.author} title={quote.title}
                                key={quote.author}/>

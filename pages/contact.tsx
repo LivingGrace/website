@@ -13,21 +13,22 @@ const Contact = () => (
             <div className="grid pt-3 gap-6 text-[#666666] md:text-[38px] text-[24px] text-bold">
                 <p>
                     Facebook
-                    <br />
+                    <br/>
                     <Link href="https://www.facebook.com/RCCG-Living-Grace-Durham-105454208869827">
-                        <a className="md:text-[24px] text-[16px] text-[#1E88E5] hover:text-[#186CB7]">RCCG Living Grace Durham</a>
+                        <a className="md:text-[24px] text-[16px] text-[#1E88E5] hover:text-[#186CB7]">RCCG Living Grace
+                            Durham</a>
                     </Link>
                 </p>
                 <p>
                     Contact Number
-                    <br />
+                    <br/>
                     <Link href="tel:+447950927152">
                         <a className="md:text-[24px] text-[16px] text-[#1E88E5] hover:text-[#186CB7]">07950927152</a>
                     </Link>
                 </p>
                 <p>
                     Address
-                    <br />
+                    <br/>
                     <a className="md:text-[24px] text-[16px]">
                         House of Grace
                         <br/>

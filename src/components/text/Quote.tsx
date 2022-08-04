@@ -7,7 +7,7 @@ type QuoteProps = {
     title: string
 };
 
-export default function Quote({ image, message, author, title }: QuoteProps) {
+export default function Quote({image, message, author, title}: QuoteProps) {
     return (
         <div className="flex md:pt-3 gap-5 md:flex-row flex-col items-center md:items-start">
             <div className="md:shrink-0">

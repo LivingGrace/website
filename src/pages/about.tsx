@@ -126,7 +126,7 @@ const About = () => (
                     Holy Spirit – II Tim. 3:16-17. All the Christian teachings and the Christian attitude of the Children of
                     God are such as are established in the Holy Bible – II Tim. 3:10-15; II Peter 1:21; John 17:17; Ps.
                     119:105.
-                    <br />
+                    <br/>
                     We believe that the Bible is the written and revealed Will of God. Man’s position to God, the way to
                     obtain salvation, woe and destruction awaiting sinners that refuse to repent and everlasting joy that is
                     kept for the born again souls. All the Bible teachings are holy, what the Bible reveals as the will of
@@ -181,7 +181,14 @@ const About = () => (
                     Things He created. Gen. 1:26. God formed man of the dust of the ground and breathed into his nostrils
                     the breath of life, and man became a living soul – Gen 2:7. Therefore man is of three parts, namely
                     body, soul and spirit. Man is God’s ambassador on earth to take control over all other creatures on His
-                    beh…
+                    behalf on earth. Gen. 1:26-28. God allows man to take part in His work and thereby reveal His love for
+                    mankind more than any other creatures – Gen. 2:15. This also shows how God elevates man more than the
+                    other creatures upon the earth
+                </p>
+                <p className="underline">REPENTANCE UNTO GOD</p>
+                <p>
+                    Repentance is the sorrow of a godly man for his sins with decision to abstain from them – Acts 3:19;
+                    20:21; II Cor. 7:10; Mark 1:15; Is. 55:7; II Chron. 7:14; Ezek. 18:21.
                 </p>
             </div>
         </div>

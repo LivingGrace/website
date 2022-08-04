@@ -22,7 +22,7 @@ const Contact = () => (
                     Contact Number
                     <br />
                     <Link href="tel:+447950927152">
-                        <a className="md:text-[24px] text-[16px]">077950927152</a>
+                        <a className="md:text-[24px] text-[16px]">07950927152</a>
                     </Link>
                 </p>
                 <p>

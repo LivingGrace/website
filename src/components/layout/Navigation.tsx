@@ -42,7 +42,7 @@ export default function Navigation() {
                     </button>
                 </Link>
             ))}
-            <div className="grow"/>
+            <div className="sm:inline hidden grow"/>
             <Link passHref href="/contact">
                 <button className="hover:text-[#1E88E5]">Contact</button>
             </Link>

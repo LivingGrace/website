@@ -9,7 +9,7 @@ const Contact = () => (
         </Head>
         <h1 className="text-[#1E88E5] text-[42px] md:text-[57px] text-bold select-none">Contact</h1>
 
-        <div className="flex flex-row gap-6 justify-between">
+        <div className="flex md:flex-row flex-col gap-6 justify-between">
             <div className="grid pt-3 gap-6 text-[#666666] md:text-[38px] text-[24px] text-bold">
                 <p>
                     Facebook
@@ -39,7 +39,7 @@ const Contact = () => (
                     </a>
                 </p>
             </div>
-            <div className="pl-8">
+            <div className="md:pl-8">
                 <Image src="/images/map.png" width="800" height="500" alt="Map of the church"/>
             </div>
         </div>

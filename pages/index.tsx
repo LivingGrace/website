@@ -35,15 +35,16 @@ export default function Home() {
             </Head>
 
             <div className="mx-6 select-none">
-                <div className="flex flex-row gap-6 justify-between">
+                <div className="xl:flex gap-6 justify-between">
                     <div>
-                        <h1 className="tracking-tight xl:w-[30rem] lg:w-[55rem]  md:text-left text-center md:text-[57px] text-[40px] font-bold text-[#1E88E5]">
+                        <h1 className="tracking-tight xl:w-[30rem] lg:w-[30rem] md:w-[24rem] md:text-left text-center md:text-[57px] text-[40px] font-bold text-[#1E88E5]">
                             Welcome to
                             <p className="text-black">RCCG Living Grace Durham</p>
                         </h1>
-                        <h2 className="text-[16px] md:text-[22px] w-[20rem] md:w-[28rem] md:text-left text-center text-[#949494]">Transforming lives, impacting generations.</h2>
+                        <h2 className="text-[16px] md:text-[22px]  md:w-[28rem] md:text-left text-center text-[#949494]">Transforming
+                            lives, impacting generations.</h2>
                     </div>
-                    <div className="grow md:pl-[25rem]">
+                    <div className="grow md:pl-[25rem] xl:inline hidden">
                         <Image
                             width="900"
                             height="500"
@@ -53,7 +54,7 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="flex lg:flex-row gap-6 md:pt-5 pt-12 flex-col md:justify-between">
+                <div className="flex lg:flex-row gap-6 md:pt-5 pt-12 flex-col lg:text-left text-center md:justify-between">
                     {quotes.map((quote) => (
                         <Quote image={quote.image} message={quote.text} author={quote.author} title={quote.title}
                                key={quote.author}/>

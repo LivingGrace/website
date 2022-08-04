@@ -12,8 +12,8 @@ export default function Quote({ image, message, author, title }: QuoteProps) {
         <div className="flex md:pt-3 gap-5 md:flex-row flex-col items-center md:items-start">
             <div className="md:shrink-0">
                 <Image
-                    width="256"
-                    height="256"
+                    width="243"
+                    height="243"
                     src={image}
                     alt={`Image of ${author}`}
                 />

@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import {useRouter} from "next/router";
 
 type Route = {
     name: string;
@@ -20,9 +19,6 @@ const routes: Route[] = [
 
 
 export default function Navigation() {
-    const router = useRouter();
-    console.log(router.route);
-
     // noinspection HtmlUnknownTarget
     return (
         <div className="flex flex-row gap-6 select-none">
